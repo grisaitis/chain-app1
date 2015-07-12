@@ -30,20 +30,6 @@ router.get('/chain1', function(req, res) {
 
 router.get('/transferAssetAtoB', function(req, res) {
 	// transfer some BTC from bucket A to bucket B
-	/*
-		use transact()
-		takes...
-			buildParams = {
-				inputs = [bucketID, amount]
-				,outputs = [bucketID, amount]
-				,metadata = ?
-			}
-			,cb = function() {}
-		inputs would be...
-			A's id and amount
-			B's id and amount
-
-	*/
 	var buildParams = {
 		inputs: [
 		    {
