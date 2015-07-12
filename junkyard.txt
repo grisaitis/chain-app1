@@ -1,4 +1,8 @@
 
+
+finalizeTransactionTemplate
+verifyBuildResponse
+signTransactionTemplate
 	// get public key of target bucket
 	// var targetBucketPublicKey = 'todo';
 	// var sourceBucketPublicKey = 'todo';
